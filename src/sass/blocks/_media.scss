@@ -12,7 +12,14 @@
             width: 345px;
         }
     }
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+
     .advantages {
+        padding: 50px 0 70px 0;
         &__wrapper {
             margin-top: 50px;
         }
@@ -29,6 +36,18 @@
                 display: block;
             }
         }
+    }
+    .consultation {
+        min-height: 520px;
+        padding: 50px 0 70px 0;
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 @media (max-width: 767px) {
