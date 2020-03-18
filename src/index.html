@@ -99,12 +99,12 @@
                 Просто заполните форму заявки <br>
                 и мы перезвоним вам в течении 10 минут
             </div>
-            <form action="#">
-                <label>First input
-                    <input placeholder="Ваше имя" type="text">
-                    <input placeholder="Ваш телефон" type="text">
-                    <input placeholder="Ваше E-mail" type="text">
-                </label> 
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваше E-mail" type="email">
+                
+                <button class="button button_submit">Заказать Консультацию</button>
             </form>
         </div>
     </div>
